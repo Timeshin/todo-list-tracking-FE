@@ -9,11 +9,11 @@
 	cursor: pointer;
 	padding: 10px;
 	border-radius: 7px;
+	transition: all 0.3s;
 
 	&:hover {
-		outline: blue;
-		outline-width: 2px;
-		outline-style: solid;
+		background: white;
+		transform: scale(1.01);
 	}
 
 	.boardItemCol {

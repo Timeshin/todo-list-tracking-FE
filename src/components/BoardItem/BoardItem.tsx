@@ -11,7 +11,7 @@ const BoardItem: FC<IBoardItem> = ({ companyName, companyNameKey, createdDate, i
 	const navigate = useNavigate()
 
 	const onClickHandler = () => {
-		navigate(id)
+		navigate(id, { state: { company: companyName } })
 	}
 
 	return (
