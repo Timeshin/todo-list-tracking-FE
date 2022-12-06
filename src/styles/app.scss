@@ -1,0 +1,21 @@
+@import './routes.scss';
+
+body {
+	font-family: sans-serif;
+	font-size: 22px;
+	background: rgb(239, 239, 240);
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}

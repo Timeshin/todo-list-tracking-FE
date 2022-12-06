@@ -1,0 +1,39 @@
+.boardItem {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 45px;
+	min-height: 40px;
+	width: 100%;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 7px;
+
+	&:hover {
+		outline: blue;
+		outline-width: 2px;
+		outline-style: solid;
+	}
+
+	.boardItemCol {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+
+		p {
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
+		&:first-child {
+			flex-grow: 1;
+			max-width: 39%;
+		}
+
+		&:nth-child(2) {
+			flex-grow: 1;
+		}
+	}
+}
